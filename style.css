@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    cursor: url('İmage/icons8-cursor-26.png'), default;
+  }
+
+a {
+  text-decoration: none;
+}
+
+body{
+    background-image: url(İmage/GümüşhaneVideo-_online-video-cutter.com_.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.başlık{
+    text-align: center;
+}
+
+.Barlow{
+    height: 40px;
+    font-family: Barlow, sans-serif;
+    font-size: 15px;
+    background-color: #161c26;
+}
+
+.kutu{
+    padding-top: 10px;
+    margin-left: 40px ;
+}
+
+.Barlow .kutu .sosmedya {
+    display: inline-block;
+    color: #959ca7;
+    text-decoration: none;
+    padding-left: 16px;
+    list-style-type: none;
+}
+
+.menu{
+    z-index: -1;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    height: 95px;
+}
+
+.menu .listmenu {
+    padding-left: 450px;
+    padding-top: 40px;
+}
+
+.menu .listmenu li{
+    display: inline-block;
+    padding: 10px;
+    margin: -10px;
+    margin-right: 60px;
+    font-family: Barlow, sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+    position: relative;
+}
+
+.menu .listmenu li::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: orange;
+    transition: width 0.3s ease;
+}
+
+.menu .listmenu li:hover::after {
+    width: 100%;
+}
+
+
+
+.menu .listmenu li .menua{
+    color: #ffffff;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#popupButton{
+  background-color: orange;
+  font-weight: bold;
+  font-size: 18px;
+  height: 60px;
+  margin-top: 15px;
+  margin-left: 400px;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.popup-content {
+  background-color: #fefefe;
+  border-radius: 5px;
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 300px;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+
+.logo{
+    padding-left: 20px;
+}
+
+.logobir{
+    z-index: 2;
+    width: 170px;
+}
+
+.logoiki{
+    z-index: 2;
+    width: 70px;
+}
+
+.header .baslik{
+    text-align: center;
+    font-family: Barlow, sans-serif;
+    color: #ffffff;
+    font-size: 75px;
+    margin-top: 150px;
+}
+
+.container {
+    display: flex;
+    background-size: cover;
+    gap: 30px;
+    width: 1100px;
+    margin-top: 50px;
+    margin-left: 370px;
+  }
+  
+  .box {
+    flex: 1;
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    cursor: pointer;
+    transition: opacity 0.5s ease;
+    height: 260px;
+    width: 200px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+
+  .sub-box{
+    width: 347px;
+    height: 90px;
+    background-color: rgb(223, 217, 217);
+    margin: 260px auto;
+  }
+  
+  .box:hover {
+    opacity: 0.8;
+  }
+  .box:nth-child(1) {
+    animation: fadeIn 2s ease;
+  }
+
+  .box:nth-child(2) {
+    animation: fadeIn 2s ease;
+  }
+
+  .box:nth-child(3) {
+    animation: fadeIn 2s ease;
+  }
+
+  #one{
+    background-image: url('İmage/ziron.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+
+  #two{
+    background-image: url('İmage/Anıtkabir.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+
+  #three{
+    background-image: url('İmage/kar.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  p {
+    font-family: Barlow, sans-serif;
+    color: #161c26;
+    font-weight: bold;
+    padding-top: 5px;
+  }
+
+  h3{
+    font-family: Barlow, sans-serif;
+    color: #161c26;
+    font-weight: bold;
+    padding-top: 15px;
+  }
+  .signature {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-family: Barlow, sans-serif;
+    color: #888;
+  }
+
+  .imza{
+    text-decoration: none;
+    list-style-type: none;
+    color: #ffffff;
+    background-color: #0d1016;
+    
+  }
